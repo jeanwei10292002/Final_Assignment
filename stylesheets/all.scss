@@ -1,0 +1,10 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+// 改成自己的
+@import "../stylesheets/helpers/variables";
+@import"../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//custom
+@import "../stylesheets/components/box";
+@import"../stylesheets/components/mixin";
