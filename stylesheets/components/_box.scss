@@ -69,7 +69,6 @@
   @include postionx();
   transition: all .1s;
   z-index: 2;
-
   &:hover,
   &.active {
     background-color: $accent;
@@ -79,12 +78,6 @@
 }
 
 //  section1
-@mixin tobehidden() {
-  @media (max-width:768px) {
-    display: none;
-  }
-}
-
 .semantics-bg-col {
   background-color: $bg-primary-lighter;
 }
@@ -119,16 +112,6 @@
   width: 89px;
   height: 307px;
   margin-top: -20px;
-
-  @media (max-width:768px) {
-    display: none;
-  }
-}
-
-.no-show-img {
-  @media (min-width:768px) {
-    display: none;
-  }
 }
 
 //  section2
@@ -145,11 +128,6 @@
 
 .title-img {
   margin-top: -20px;
-  @include tobehidden();
-}
-
-.no-sm-showimg {
-  @include tobehidden();
 }
 
 //section4
@@ -248,4 +226,3 @@
     right: 10px;
   }
 }
-

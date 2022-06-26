@@ -6121,7 +6121,7 @@ textarea.form-control-lg {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #EAF0ED;
 }
 .list-group-item-action:active {
   color: #212529;
@@ -6132,7 +6132,7 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #3F5D45;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -6152,9 +6152,9 @@ textarea.form-control-lg {
 }
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #3F5D45;
-  border-color: #3F5D45;
+  color: #3F5D45;
+  background-color: #EAF0ED;
+  border-color: rgba(0, 0, 0, 0.125);
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -17575,17 +17575,6 @@ textarea.form-control-lg {
   height: 307px;
   margin-top: -20px;
 }
-@media (max-width: 768px) {
-  .right-img {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .no-show-img {
-    display: none;
-  }
-}
 
 .ad-right-bg {
   background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);
@@ -17603,17 +17592,6 @@ textarea.form-control-lg {
 
 .title-img {
   margin-top: -20px;
-}
-@media (max-width: 768px) {
-  .title-img {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .no-sm-showimg {
-    display: none;
-  }
 }
 
 .item-card-img-le {
