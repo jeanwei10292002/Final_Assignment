@@ -14,43 +14,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container mt-6">
-            <a class="navbar-brand" href="#">
-                <img src="https://www.casper.tw/F2E-PK/images/logo-all-dark.svg" width="211" height="40" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item me-12">
-                        <a class="nav-link " aria-current="page" href="index.html">首頁</a>
-                    </li>
-                    <li class="nav-item me-12">
-                        <a class="nav-link active" href="product.html">甜點</a>
-                    </li>
-                    <li class="nav-item me-16">
-                        <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">登入</a>
-                    </li>
-                    <li class="nav-item me-8">
-                        <a href="#" class="nav-link"><i
-                                class="fa-solid fa-cart-shopping fa-4 text-bg-primary-target"></i></a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container my-2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="https://www.casper.tw/F2E-PK/images/logo-all-dark.svg" class="d-md-block d-none"width="211" height="40" alt="">
+        <img src="https://www.casper.tw/F2E-PK/images/logotype-sm-dark.svg" class="d-md-none d-block" alt=""width="115" height="18">
+      </a>
+      <a href="#" class="nav-link d-flex align-items-center order-md-1"><i class="fa-solid fa-cart-shopping fa-4 text-bg-primary-target"></i></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-12">
+            <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+          </li>
+          <li class="nav-item me-12">
+            <a class="nav-link" href="product.html">甜點</a>
+          </li>
+          <li class="nav-item me-16">
+            <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">登入</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 pro-banner-top"style="position:relative;">
+              <img class="pro-header-img"
+                    src="https://www.casper.tw/F2E-PK/images/lg-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg"
+                    alt="" height="328">
+          </div>
         </div>
-    </nav>
-    <div class="container mt-6">
-        <header class="pro-header">
-            <!-- banner -->
-            <div class="pro-banner-top text-right"></div>
-            <img class="pro-header-img"
-                src="https://www.casper.tw/F2E-PK/images/lg-%E6%83%B3%E5%90%83%E7%94%9C%E9%BB%9E%E6%98%AF%E4%B8%8D%E9%9C%80%E8%A6%81%E7%90%86%E7%94%B1%E7%9A%84.svg"
-                alt="" height="328">
-        </header>
+       
     </div>
     <!-- 產品 -->
     <section class="container mt-md-12 mt-0">
@@ -58,15 +56,15 @@
             <div class="col-md-4 text-center ">
                 <h2 class="bg-primary text-white mb-0 py-3 h4">甜點類別</h2>
                 <div class="list-group">
-                    <button type="button" class="fw-bold text-primary h4 list-group-item list-group-item-action active"
+                    <button type="button" class="fw-bold text-primary h4 mb-0 list-group-item list-group-item-action active"
                         aria-current="true">
                         所有甜點（48）
                     </button>
                     <button type="button"
-                        class="fw-bold text-primary h4 list-group-item list-group-item-action">本日精選（10）</button>
+                        class="fw-bold text-primary h4 mb-0 list-group-item list-group-item-action">本日精選（10）</button>
                     <button type="button"
-                        class="fw-bold text-primary h4 list-group-item list-group-item-action">人氣推薦（26）</button>
-                    <button type="button" class="fw-bold text-primary h4 list-group-item list-group-item-action"
+                        class="fw-bold text-primary h4 mb-0 list-group-item list-group-item-action">人氣推薦（26）</button>
+                    <button type="button" class="fw-bold text-primary h4 mb-0 list-group-item list-group-item-action"
                         disabled>新品上市（12）</button>
                 </div>
             </div>
@@ -118,7 +116,7 @@
             </div>
         </div>
         <nav aria-label="Page navigation example ">
-            <ul class="pagination pagination-lg justify-content-end py-10">
+            <ul class="pagination pagination-lg justify-content-md-end justify-content-center py-10">
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>

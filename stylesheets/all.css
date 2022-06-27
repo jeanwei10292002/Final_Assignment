@@ -17685,6 +17685,7 @@ textarea.form-control-lg {
   height: 496px;
   background-size: cover;
   background-position: center center;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .pro-banner-top {
