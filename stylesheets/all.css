@@ -17723,4 +17723,56 @@ textarea.form-control-lg {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.cart-item-bg {
+  background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);
+  height: 110px;
+  background-size: cover;
+  background-position: center center;
+  min-width: 110px;
+}
+
+.card-msg-title {
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .card-msg-title {
+    background-color: #3F5D45;
+    color: white;
+  }
+}
+
+.card-msg-box {
+  color: #3F5D45;
+}
+@media (min-width: 768px) {
+  .card-msg-box {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    font-size: 16px;
+  }
+}
+
+.card-input {
+  text-align: center;
+  border: 1px solid #EAF0ED;
+  outline: none;
+}
+.card-input:hover {
+  background-color: #EAF0ED;
+  color: #3F5D45;
+}
+
+.cart-btn-ground {
+  outline: none;
+  border: 1px solid #EAF0ED;
+}
+.cart-btn-ground:hover {
+  background-color: #EAF0ED;
+  border: 1px solid #EAF0ED;
+  color: #3F5D45;
 }/*# sourceMappingURL=all.css.map */
