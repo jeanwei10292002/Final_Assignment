@@ -6125,7 +6125,7 @@ textarea.form-control-lg {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #EAF0ED;
+  background-color: #f8f9fa;
 }
 .list-group-item-action:active {
   color: #212529;
@@ -6156,9 +6156,9 @@ textarea.form-control-lg {
 }
 .list-group-item.active {
   z-index: 2;
-  color: #3F5D45;
+  color: #fff;
   background-color: #EAF0ED;
-  border-color: rgba(0, 0, 0, 0.125);
+  border-color: #EAF0ED;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -17775,4 +17775,138 @@ textarea.form-control-lg {
   background-color: #EAF0ED;
   border: 1px solid #EAF0ED;
   color: #3F5D45;
+}
+
+.circle-grourp {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #EAF0ED;
+  background-color: #3F5D45;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle.active::after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #EAF0ED;
+  background-color: #EAF0ED;
+}
+
+.circle-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border: 1px solid #EAF0ED;
+  background-color: #EAF0ED;
+}
+
+.information-form label {
+  font-size: 20px;
+  color: #EAF0ED;
+}
+.information-form input, .information-form select {
+  font-size: 16px;
+  color: #8DA291;
+  height: 56px;
+}
+
+.order-information-bg {
+  background-color: #EAF0ED;
+  color: #8DA291;
+  font-size: 24pt;
+}
+
+.card-body-information span {
+  color: #8DA291;
+  font-size: 16px;
+}
+
+.infomation-card-title {
+  color: #8DA291;
+  font-size: 16px;
+}
+
+.cart-text {
+  color: #8DA291;
+  font-size: 20px;
+}
+
+.negative-row-margin {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+.nav-item-br {
+  background-color: transparent;
+  color: #EAF0ED;
+  border: 1px solid #EAF0ED;
+}
+.nav-item-br:hover {
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  font-size: 30px;
+}
+
+.no-gutters {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: 1px solid #EAF0ED;
+  text-align: center;
+  color: #EAF0ED;
+}
+
+.header-main-img {
+  background: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c5a2cf31c693f5c15fb08135bf1adf2&auto=format&fit=crop&w=1347&q=80);
+  height: 460px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.circle-step-grourp {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.circle-step {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #3F5D45;
+  background-color: #3F5D45;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-step-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  border: 1px solid #3F5D45;
+  background-color: #3F5D45;
 }/*# sourceMappingURL=all.css.map */

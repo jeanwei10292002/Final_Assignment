@@ -27,7 +27,7 @@
                 <img src="https://www.casper.tw/F2E-PK/images/logotype-sm-dark.svg" class="d-md-none d-block" alt=""
                     width="115" height="18">
             </a>
-            <a href="cart.html" class="nav-link d-flex align-items-center order-md-1"><i
+            <a href="cart.html" class="nav-link active d-flex align-items-center order-md-1"><i
                     class="fa-solid fa-cart-shopping fa-4 text-bg-primary-target"></i></a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
@@ -38,60 +38,113 @@
                         <a class="nav-link" href="product.html">甜點</a>
                     </li>
                     <li class="nav-item me-16">
-                        <a class="nav-link active" href="login.html" tabindex="-1" aria-disabled="true">登入</a>
+                        <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">登入</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container mb-md-12 md-0 gx-0">
-        <div class="row justify-content-center g-0">
-            <div class="col-md-10">
-                <div class="bg-primary d-md-none  p-3 text-center text-white">
-                    <h1 class="py-8 text-center text-white">會員登入</h1>
+    <div class="container mb-md-12">
+        <div class="row">
+            <div class="col-lg-7 col-12">
+                <div class="negative-row-margin mx-lg-0 ">
+                    <div class="bg-primary p-5">
+                        <div class="row justify-content-between">
+                            <div class="col-5">
+                                <div class="h2 fw-bold text-white">運送</div>
+                            </div>
+                            <div class="col-5 gy-2">
+                                <div class="circle-grourp">
+                                    <div class="circle active"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle"></div>
+                                    <div class="circle-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="row g-3 information-form">
+                            <div class="col-lg-6 ">
+                                <label for="validationDefault01" class="form-label">姓氏</label>
+                                <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="validationDefault02" class="form-label">名字</label>
+                                <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <label for="validationDefault02" class="form-label">電話</label>
+                                <input type="tel" class="form-control" id="validationDefault02" value="0912-345-678"
+                                    required>
+                            </div>
+                            <label for="validationDefault04" class="form-label">地址</label>
+                            <div class="col-6">
+                                <select class="form-select" id="validationDefault04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>高雄市</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <select class="form-select" id="validationDefault04" required>
+                                    <option selected disabled value="">Choose...</option>
+                                    <option>新興區</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" value="幸福路 520 號" id="validationDefault05"
+                                    required>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <a href="checkout_pay.html" class="btn btn-accent w-100 py-4 text-primary fw-bold">下一步</a>
+                    </div>
                 </div>
-                <div class="row  flex-md-row-reverse g-0">
-                    <div
-                        class="col-md-6 login-font d-flex justify-content-center align-items-center flex-column my-md-2 my-0">
-                        <h2 class="text-center pt-8 d-md-block d-none">—— 連結社群帳號 ——</h2>
-                        <div class="row no-gutters my-5">
-                            <div class="col-4 col-md-12 mb-md-4 g-1">
-                                <button class="btn login-btn-color btn-lg btn-block py-3 h-100"
-                                    type="button">Facebook</button>
+            </div>
+            <div class="col-md-5 d-lg-block d-none">
+                <div class="border border-bg-primary-lighter">
+                    <div class="order-information-bg text-center py-3">訂單摘要</div>
+                    <div class="card-body-information px-2">
+                        <div class="d-flex justify-content-between py-1">
+                            <span>小計</span>
+                            <span>NT$ 2,700</span>
+                        </div>
+                        <div class="d-flex justify-content-between py-1">
+                            <span>運費</span>
+                            <span>NT$ 300</span>
+                        </div>
+                        <div class="d-flex justify-content-between py-1 fw-bold">
+                            <span class="fs-4">總計</span>
+                            <span class="fs-4">NT$ 3,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-bg-primary-lighter">
+                    <div class="order-information-bg text-center py-3">購物清單</div>
+                    <div class="card-body-information px-2 mb-2">
+                        <div class="row justify-content-around mt-3">
+                            <div class="col-md-4">
+                                <div class="cart-item-bg"></div>
                             </div>
-                            <div class="col-4 col-md-12 mb-md-4 g-1">
-                                <button class="btn login-btn-color btn-lg btn-block py-3 h-100"
-                                    type="button">Google</button>
-                            </div>
-                            <div class="col-4 col-md-12 mb-md-4 g-1">
-                                <button class="btn login-btn-color btn-lg btn-block py-3 h-100"
-                                    type="button">Yahoo!</button>
+                            <div class="col-md-7 d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="infomation-card-title">焦糖馬卡龍（2）</div>
+                                    <p class="cart-text">NT$ 450</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 bg-primary pt-6">
-                        <h1 class="py-8 text-center text-white d-md-block d-none">會員登入</h1>
-                        <form action="">
-                            <div class="input-group mb-3 px-5" style="height: 56px;">
-                                <label class="input-group-text" for="inputGroupFile01"><i
-                                        class="fa-solid fa-user text-primary"></i></label>
-                                <input type="email" class="form-control " id="inputGroupFile01" style="width:20px;">
+                    <div class="card-body-information px-2 mb-2">
+                        <div class="row justify-content-around mt-3">
+                            <div class="col-md-4">
+                                <div class="cart-item-bg"></div>
                             </div>
-                            <div class="input-group mb-3 px-5" style="height: 56px;">
-                                <label class="input-group-text" for="inputGroupFile02"><i
-                                        class="fa-solid fa-key text-primary"></i></label>
-                                <input type="password" class="form-control " id="inputGroupFile02">
-                            </div>
-                            <div class="mb-3 px-5">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        記住我
-                                    </label>
+                            <div class="col-md-7 d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="infomation-card-title">焦糖馬卡龍（2）</div>
+                                    <p class="cart-text">NT$ 450</p>
                                 </div>
                             </div>
-                        </form>
-                        <a href="#" class="btn btn-accent w-100 py-5 fw-bold text-primary fs-3">登入帳號</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -155,6 +208,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/5ff57fd5f7.js"></script>
+    </script>
 </body>
 
 </html>
